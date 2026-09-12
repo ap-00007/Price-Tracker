@@ -38,4 +38,3 @@ if BUY_PRICE > int(price_without_currency):
             to_addrs=os.environ["EMAIL_ADDRESS"],
             msg=f"Subject:Amazon Price Alert!\n\n{message}\n{url}".encode("utf-8")
         )
-
